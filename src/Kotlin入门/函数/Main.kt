@@ -15,8 +15,9 @@ fun main() {
         println(it)
     }
     //无参数可以省略()
-    sum7 {
+    sum7<Int> {
         println(it)
+        it
     }
     val arr = arrayOf("1", "2", "3")
     //可以用这种方式展开数组
