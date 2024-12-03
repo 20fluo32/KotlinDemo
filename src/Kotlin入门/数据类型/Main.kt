@@ -56,7 +56,9 @@ fun main() {
     var mapOf = mapOf("1" to 1, "2" to 2, "3" to 3)
     //可变
     var mutableMapOf: MutableMap<String, Int> = mutableMapOf("1" to 1, "2" to 2, "3" to 3)
-
+    mutableMapOf.entries.forEach {
+        println("${it.key}:${it.value}")
+    }
 
     //Pair的创建(元组)
     var pair: Pair<Int, Int> = Pair(1, 2)
