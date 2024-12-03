@@ -1,7 +1,7 @@
 package 类与对象
 
-import Kotln入门.数据类伴生类密封类.C.AChild.a
-import Kotln入门.数据类伴生类密封类.C.AChild.b
+import Kotlin入门.数据类伴生类密封类.C.AChild.a
+import Kotlin入门.数据类伴生类密封类.C.AChild.b
 
 // Kotln中和java一样存在着自动装箱和拆箱的一个机制
 // Kotln中的基本数据类型在编译过程中会有限选择java的原生数据类型，而不是包装类型，除非加一些断言?

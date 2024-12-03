@@ -1,4 +1,4 @@
-package Kotln入门.循环控制
+package Kotlin入门.循环控制
 
 fun main() {
     //底层是使用对象的迭代器进行for循环，如果没有就循环不了

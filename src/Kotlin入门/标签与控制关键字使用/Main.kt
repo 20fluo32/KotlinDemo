@@ -1,4 +1,4 @@
-package Kotln入门.标签与控制关键字使用
+package Kotlin入门.标签与控制关键字使用
 
 fun main() {
     for (i in 1..3) {

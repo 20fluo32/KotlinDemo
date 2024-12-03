@@ -1,4 +1,4 @@
-package Kotln入门.In和区间
+package Kotlin入门.In和区间
 
 fun main() {
     //双闭区间

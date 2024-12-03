@@ -1,4 +1,4 @@
-package Kotln入门.函数
+package Kotlin入门.函数
 
 //内联函数
 fun main() {

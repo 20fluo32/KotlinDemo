@@ -1,4 +1,4 @@
-package Kotln入门.条件控制语句
+package Kotlin入门.条件控制语句
 
 //if大部分和java差不多，但是kotln的if是可以有返回值的
 fun main() {

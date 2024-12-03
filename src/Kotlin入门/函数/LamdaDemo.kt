@@ -1,4 +1,4 @@
-package Kotln入门.函数
+package Kotlin入门.函数
 
 fun main() {
     //表示一个接受String参数，返回值是Int类型的函数,lamda表达式的写法

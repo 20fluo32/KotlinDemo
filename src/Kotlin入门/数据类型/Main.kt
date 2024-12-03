@@ -1,4 +1,4 @@
-package Kotln入门.数据类型
+package Kotlin入门.数据类型
 
 /*
 * Kotln的基本数据类型

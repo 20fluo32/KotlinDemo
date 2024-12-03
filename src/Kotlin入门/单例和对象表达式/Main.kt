@@ -1,4 +1,4 @@
-package Kotln入门.单例和对象表达式
+package Kotlin入门.单例和对象表达式
 
 fun main() {
     A.test()

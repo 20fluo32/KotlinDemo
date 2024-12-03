@@ -1,4 +1,4 @@
-package Kotln入门.数据类伴生类密封类
+package Kotlin入门.数据类伴生类密封类
 
 fun main() {
     var a = A("张三", 10)

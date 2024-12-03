@@ -12,6 +12,11 @@ fun main() {
     //这里依然使用的Shape的扩展方法(同名函数那就以定义的类型为准,跟对象向上转型有点区别)
     //从这就可以看出扩展函数没办法很好的利用多态的性质
     printClassName(Rectangle())
+    //定义类的扩展函数
+    var func: String.() -> String = {
+        this.reversed()
+    }
+    println("12345".func())
 }
 
 
