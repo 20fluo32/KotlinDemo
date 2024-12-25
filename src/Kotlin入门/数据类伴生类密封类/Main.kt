@@ -1,13 +1,15 @@
 package Kotlin入门.数据类伴生类密封类
 
 fun main() {
-    var a = A("张三", 10)
-    var copy = a.copy("李四")
-    println(copy.name)
-    println(a.name)
-    var b = B("王五", 12)
-    println(b)
-    println(D.TEST3.key)
+//    var a = A("张三", 10)
+//    var copy = a.copy("李四")
+//    println(copy.name)
+//    println(a.name)
+//    var b = B("王五", 12)
+//    println(b)
+//    println(D.TEST3.key)
+    var test = C.b
+    println(test)
 }
 
 //数据类(会自带实现的toString)
@@ -37,6 +39,8 @@ class C {
 
         //静态常量,const只能用与基本数据类型，并且也只能在伴生类,单例或者类外面进行使用,也不能加在可变的
         const val b = 2
+
+        const val c = "test"
 
         //这个注解是为了方便与java互通,其实就是对static的适配
         @JvmStatic
