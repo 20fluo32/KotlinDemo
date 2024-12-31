@@ -15,8 +15,20 @@ fun main() {
         println("我是正常情况")
         "收到的参数为${it}"
     }
+
 }
 
 fun test(func: (String) -> Int) {
     func(" ")
 }
+
+//class A(var name: String, var age: Int) : test{
+//    override fun testing() {
+//        TODO("Not yet implemented")
+//    }
+//
+//}
+//
+//interface test{
+//    fun testing()
+//}

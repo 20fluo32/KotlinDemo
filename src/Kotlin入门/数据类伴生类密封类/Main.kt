@@ -1,7 +1,9 @@
 package Kotlin入门.数据类伴生类密封类
 
 fun main() {
-//    var a = A("张三", 10)
+    var a = A("张三", 10)
+    //解构符号
+    val (name, age) = a
 //    var copy = a.copy("李四")
 //    println(copy.name)
 //    println(a.name)
@@ -12,7 +14,7 @@ fun main() {
     println(test)
 }
 
-//数据类(会自带实现的toString)
+//数据类(会自带实现的toString，以及component类，可以辅助数据解构)
 data class A(
     val name: String,
     val age: Int
