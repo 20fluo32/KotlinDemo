@@ -10,6 +10,8 @@ fun main() {
     base.print()
     var example = Example("luofan")
     println(example.p)
+    example.age = 90
+    println(example.age)
 
     val map: MutableMap<String, Any> = mutableMapOf(
         "name" to "John Doe",
