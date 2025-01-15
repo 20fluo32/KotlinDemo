@@ -56,6 +56,7 @@ fun main() {
     var mapOf = mapOf("1" to 1, "2" to 2, "3" to 3)
     //可变
     var mutableMapOf: MutableMap<String, Int> = mutableMapOf("1" to 1, "2" to 2, "3" to 3)
+    var entries: MutableSet<MutableMap.MutableEntry<String, Int>> = mutableMapOf.entries
     mutableMapOf.entries.forEach {
         println("${it.key}:${it.value}")
     }
