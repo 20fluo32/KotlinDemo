@@ -1,8 +1,12 @@
 package 封装继承和多态.接口和功能接口
 // is关键字用于判断是否为接口的实现
 // as关键字是强制转换成对应的接口
-fun main() {
-
+fun main():C {
+    return object : C {
+        override fun test() {
+            TODO("Not yet implemented")
+        }
+    }
 }
 
 //接口的实现和java中是一样的，类单继承，接口可以多继承，
@@ -19,6 +23,9 @@ class Parent : A, B {
         super<A>.test()
     }
 
+}
+interface C{
+    fun test()
 }
 
 interface A {
